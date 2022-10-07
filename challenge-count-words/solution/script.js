@@ -12,7 +12,6 @@ function calculateWords(chapterOfABook) {
       }
     }
   });
-
   return wordCount;
 }
 

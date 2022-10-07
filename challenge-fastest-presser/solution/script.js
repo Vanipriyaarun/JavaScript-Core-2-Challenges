@@ -44,7 +44,7 @@ function setWinner() {
     wonText.innerText = "Player One Won!!";
   } else if (playerOneScore < playerTwoScore) {
     wonText.innerText = "Player Two Won!!";
-  } else if (playerOneScore === playerTwoScore) {
+  }else if (playerOneScore === playerTwoScore) {
     wonText.innerText = "Players Tied!";
   }
 }
